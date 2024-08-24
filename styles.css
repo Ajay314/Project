@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bogo-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.title {
+    text-align: center;
+    color: #ff4b5c;
+    margin-bottom: 20px;
+}
+
+.offer {
+    margin-bottom: 10px;
+}
+
+.offer-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ff4b5c;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.offer-label:hover {
+    background-color: #ffebec;
+}
+
+.offer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.discount {
+    background-color: #ff4b5c;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 3px;
+    text-align: justify;
+}
+
+.price {
+    font-weight: bold;
+
+}
+
+.most-popular {
+    
+    color: #ff4b5c;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 3px;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+.expandable-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    padding: 0 10px;
+}
+
+.offer-label + .expandable-content {
+    display: flex;
+    align-items: center;
+}
+
+.radio-btn:checked + .offer-label + .expandable-content {
+    display: block;
+    max-height: 100px; 
+    margin-left: 5px;
+}
+
+.summary {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-to-cart {
+    width: 100%;
+    background-color: #ff4b5c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ol {
+    counter-reset: item;
+  }
+  
+  .ol li {
+    list-style: none;
+    counter-increment: item;
+    content: "#" counter(item) ". ";
+  }
+  
+  .pumper {
+    color: #ff4b5c;
+    font-weight: bold;
+  }
+
+  .delivery {
+     color: #ff4b5c;
+     text-align: left;
+  }

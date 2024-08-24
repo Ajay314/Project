@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bogo-container">
+        <h1 class="title">YAY! It's BOGO</h1>
+
+        <div class="offer">
+        <input type="radio" id="offer1" name="offer" value="18" class="radio-btn">
+            <label for="offer1" class="offer-label">
+                <div class="offer-content">
+                    <span class="discount">30% Off</span>
+                
+                    <span class="offer-details">Buy 1 Get 2</span><br>
+                    
+                    <span class="price">$18.00 USD</span>
+                </div>
+            </label>
+            <div class="expandable-content">
+                <!-- You can add extra details here -->
+                
+                <div class="product-selection">
+                    <div class="product">
+                        <label for="size1">Size</label>
+                        <select id="size1" name="size1">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+        
+                        <label for="color1">Colour</label>
+                        <select id="color1" name="color1">
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Red">Red</option>
+                        </select>
+                    </div>
+        
+                    <div class="product">
+                        <label for="size2">Size</label>
+                        <select id="size2" name="size2">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+        
+                        <label for="color2">Colour</label>
+                        <select id="color2" name="color2">
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Red">Red</option>
+                        </select>
+                    </div>
+            </div>
+        </div>
+
+        <div class="offer">
+            <input type="radio" id="offer2" name="offer" value="24" class="radio-btn">
+            <label for="offer2" class="offer-label">
+                <div class="offer-content">
+                    <span class="discount">30% Off</span>
+                    <span class="offer-details">Buy 2 Get 4</span>
+                    <span class="price">$24.00 USD</span><br>
+                 <p> <span class="most-popular">Most Popular</span></p>
+                </div>
+            </label>
+            <div class="expandable-content">
+                <!-- You can add extra details here -->
+               
+                <div class="product-selection">
+                    <div class="product">
+                        <label for="size1">Size</label>
+                        <select id="size1" name="size1">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+        
+                        <label for="color1">Colour</label>
+                        <select id="color1" name="color1">
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Red">Red</option>
+                        </select>
+                    </div>
+        
+                    <div class="product">
+                        <label for="size2">Size</label>
+                        <select id="size2" name="size2">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+        
+                        <label for="color2">Colour</label>
+                        <select id="color2" name="color2">
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Red">Red</option>
+                        </select>
+                    </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="offer">
+            <input type="radio" id="offer3" name="offer" value="36" class="radio-btn">
+            <label for="offer3" class="offer-label">
+                <div class="offer-content">
+                    <span class="discount">10% Off</span>&nbsp;&nbsp;&nbsp;
+                   <p> <span class="offer-details">Buy 3 Get 6</span></p>&nbsp;
+                   <p> <span class="price">$36.00 USD </p><p><del>$10.00 USD</del></span></p>
+                </div>
+            </label>
+            <div class="expandable-content">
+                <!-- You can add extra details here -->
+             
+                <div class="product-selection">
+                    <div class="product">
+                        <label for="size1">Size</label>
+                        <select id="size1" name="size1">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+        
+                        <label for="color1">Colour</label>
+                        <select id="color1" name="color1">
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Red">Red</option>
+                        </select>
+                    </div>
+        
+                    <div class="product">
+                        <label for="size2">Size</label>
+                        <select id="size2" name="size2">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+        
+                        <label for="color2">Colour</label>
+                        <select id="color2" name="color2">
+                            <option value="Black">Black</option>
+                            <option value="White">White</option>
+                            <option value="Red">Red</option>
+                        </select>
+                    </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="summary">
+            <p><span class="delivery">Free Delivery</span>  &nbsp;    
+           <span class="price"> Total: <span id="total">$18.00 USD</span></span></p>
+        </div>
+
+        <button class="add-to-cart">&plus;Add to Cart</button>
+        <br><br>
+        <center>Powered by <span class="pumper">Pumper</span></center>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
